@@ -66,7 +66,7 @@ logo = """
 ██║░░██╗██╔══██╗███████║██║░░██╗██╔═██╗░
 ╚█████╔╝██║░░██║╚════██║╚█████╔╝██║░╚██╗
 ░╚════╝░╚═╝░░╚═╝░░░░░╚═╝░╚════╝░╚═╝░░╚═╝
-\033[1;41;97mAuthor : ROMI AFRIZAL\033[0m
+\033[1;41;97mAuthor : MR • KALIT09\033[0m
  """
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -106,7 +106,7 @@ def pilih_masuk():
 	elif msuk =="0" or msuk =="00":
 		keluar()
 	else:
-		print"\033[1;97m[\033[1;91m!\033[1;97m] Harap Isi Dengan Benar !"
+		print"\033[1;97m[\033[1;91m!\033[1;97m] Harap Isi Dengar Benar Ngab !"
 		pilih_masuk()
 		
 #####LOGIN_TOKENZ#####
@@ -121,9 +121,9 @@ def tokenz():
 		zedd = open("login.txt", 'w')
 		zedd.write(toket)
 		zedd.close()
-		jalan ('\033[1;97mJANGAN LUPA FOLLOW AKUN FACEBOOK PRIBADI GUA YA :) ')
+		jalan ('\033[1;97mJANGAN LUPA FOLLOW AKUN GW AMJEC :) ')
 		print '\033[1;97m[\033[1;39m✓\033[1;97m]\033[1;39m Alhamdulillah'
-		os.system('xdg-open  https://www.facebook.com/romi.rizal.58')
+		os.system('xdg-open  https://www.facebook.com/profile.php MA NDO .com')
 		bot_komen()
 	except KeyError:
 		print "\033[1;97m[\033[1;39m!\033[1;97m] \033[1;39mToken Salah !"
@@ -135,7 +135,7 @@ def bot_komen():
 	try:
 		toket=open('login.txt','r').read()
 	except IOError:
-		print"\033[1;39m[!] Token invalid"
+		print"\033[1;39m[!] Token Mu Salah"
 		os.system('rm -rf login.txt')
 	una = ('100047165779215')
 	kom = ('Assalamualaikum😊')
